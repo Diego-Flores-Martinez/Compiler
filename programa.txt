@@ -1,0 +1,16 @@
+int x;
+int y;
+bool ok;
+
+x = 0;
+y = 5;
+ok = true;
+
+while (x < y && ok) {
+    x = x + 1;
+    if (x == 3) {
+        ok = false;
+    } else {
+        ok = true;
+    }
+}
