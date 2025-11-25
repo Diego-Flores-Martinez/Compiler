@@ -1,0 +1,9 @@
+int x
+bool ok;
+
+x = 5;
+ok = true;
+
+while (ok) {
+    x = x + 1;
+}
